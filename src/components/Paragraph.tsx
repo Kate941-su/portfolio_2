@@ -6,9 +6,13 @@ interface IParagraph {
   textProps?: TextProps;
 }
 
-const Paragraph: React.FC<IParagraph> = ({ children, textProps }) => {
-  const textColor = useColorModeValue("gray.600", "gray.400");
+type ParagraphType = {
+  children: React.ReactNode;
+  textProps?: TextProps;
+}
 
+const Paragraph = ({ children, textProps }: ParagraphType) => {
+  const textColor = useColorModeValue("gray.600", "gray.400");
   return (
     <Text color={textColor} {...textProps}>
       {children}

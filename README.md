@@ -1,3 +1,7 @@
+
+# Reference 
+This portfolio is quoted by https://github.com/WenLonG12345
+
 ## Features
 - **Home** - Resume & Tech Stack
 - **About** - Working Experience & Education
