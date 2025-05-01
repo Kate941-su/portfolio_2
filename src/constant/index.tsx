@@ -7,6 +7,9 @@ import {
   SiTailwindcss,
   SiAntdesign,
   SiRedux,
+  SiIos,
+  SiFlutter,
+  SiDart,
 } from "react-icons/si";
 import {
   FaReact,
@@ -22,6 +25,10 @@ import {
   FaAws,
   FaGoogle,
   FaCloudflare,
+  FaInnosoft,
+  FaApple,
+  FaSwift,
+  FaJenkins,
 } from "react-icons/fa";
 import { SiReactquery, SiGoogleanalytics } from "react-icons/si";
 import { CgAlbum } from "react-icons/cg";
@@ -37,36 +44,36 @@ const menuLinks = [
 ];
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} Teo Wen Long. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Kaito Kitaya. All Rights Reserved.`,
   author: {
-    name: "Teo Wen Long",
+    name: "Kaito Kitaya",
     accounts: [
       {
-        url: "https://github.com/WenLonG12345",
+        url: "https://github.com/Kate941-su",
         icon: <FaGithub />,
         name: "Github",
         type: "gray",
       },
       {
-        url: "https://www.linkedin.com/in/teo-wen-long-19960316/",
+        url: "https://www.linkedin.com/in/kaito-kitaya-379a70274/",
         icon: <FaLinkedin />,
         name: "Linkedin",
         type: "linkedin",
       },
       {
-        url: "https://stackoverflow.com/users/12261890/teo",
+        url: "https://stackoverflow.com/users/22732415/kaito-kitaya",
         icon: <FaStackOverflow />,
         name: "StackOverflow",
         type: "orange",
       },
       {
-        url: "https://skynight1996.medium.com/",
+        url: "https://medium.com/@kworkshere",
         icon: <FaMedium />,
         name: "Medium",
         type: "gray",
       },
       {
-        url: "mailto:teowenlong0316@gmail.com",
+        url: "mailto:kaito.kitaya.personal@gmail.com",
         icon: <SiGmail />,
         name: "Gmail",
         type: "red",
@@ -76,7 +83,7 @@ const siteConfig = {
 };
 
 const resume = {
-  url: "https://drive.google.com/file/d/1Obu0CIWpsB3IlfoUDKZV_caATVPc040O/view",
+  url: "https://drive.google.com/file/d/1qTBDkUE5RT_O0QuwvP4N8yWGruAqK3Im/view?usp=drive_link",
   icon: <CgAlbum />,
   name: "Resume",
 };
@@ -100,20 +107,8 @@ const techStacks = {
       icon: <FaJs size={20} />,
     },
     {
-      name: "React Query",
-      icon: <SiReactquery size={20} />,
-    },
-    {
-      name: "Redux Saga",
-      icon: <SiRedux size={20} />,
-    },
-    {
       name: "TailwindCSS",
       icon: <SiTailwindcss size={20} />,
-    },
-    {
-      name: "SASS",
-      icon: <FaSass size={20} />,
     },
   ],
   Mobile: [
@@ -122,26 +117,34 @@ const techStacks = {
       icon: <FaAndroid size={20} />,
     },
     {
-      name: "React Native",
-      icon: <FaReact size={20} />,
+      name: "iOS",
+      icon: <FaApple size={20} />,
+    },
+    {
+      name: "Flutter",
+      icon: <SiFlutter size={20} />,
     },
     {
       name: "Kotlin",
       icon: <SiKotlin size={20} />,
     },
     {
-      name: "Java",
-      icon: <FaJava size={20} />,
+      name: "Swift",
+      icon: <FaSwift size={20} />,
+    },
+    {
+      name: "Dart",
+      icon: <SiDart size={20} />,
     },
   ],
   Infra: [
     {
-      name: "AWS",
-      icon: <FaAws size={20} />,
+      name: "Google Clund Platform",
+      icon: <FaGoogle size={20} />,
     },
     {
-      name: "Cloudflare",
-      icon: <FaCloudflare size={20} />,
+      name: "Firebase",
+      icon: <SiFirebase size={20} />,
     },
   ],
   Others: [
@@ -156,6 +159,14 @@ const techStacks = {
     {
       name: "CI/CD - Fastlane",
       icon: <SiFastlane size={20} />,
+    },
+    {
+      name: "Github Actions",
+      icon: <FaGithub size={20} />,
+    },
+    {
+      name: "Jenkins",
+      icon: <FaJenkins size={20} />,
     },
     {
       name: "Github & GitLab",

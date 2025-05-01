@@ -48,55 +48,42 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
           fontSize={{ base: "28px", md: "40px", lg: "48px" }}
           mb={3}
         >
-          Hey, I am Teo! <span className="waving-hand">👋</span>
+          Hi! I am Kaito <span className="waving-hand">👋</span>
         </Heading>
-        <MotionFlex alignItems={"flex-end"} whileHover={{ scale: 1.2 }}>
+        <MotionFlex alignItems={"flex-end"} whileHover={{ scale: 1.8 }}>
           <Avatar
-            name="Teo Wen Long"
-            src="/images/profile_picture.png"
+            name="Kaito Kitaya (北谷　海斗)"
+            src="/images/profile.jpg"
             mb={5}
-            size="lg"
+            size="2xl"
           />
         </MotionFlex>
       </MotionFlex>
       <Paragraph textProps={{ fontSize: "2xl", lineHeight: 1.6 }}>
-        Front-End Engineer from Malaysia 🇲🇾
+        Mobile Application Engineer in Germany 🇩🇪 from Japan 🇯🇵
       </Paragraph>
-      <Paragraph textProps={{ fontSize: "2xl", lineHeight: 1.6 }}>
-        Focused on{" "}
-        <Link
+      <Paragraph textProps={{ fontSize: "xl", lineHeight: 1.6 }}>
+        Focused on{" "} Cross Platform (<Link
           color={useColorModeValue("blue.500", "blue.400")}
-          href="https://www.android.com/"
+          href="https://flutter.dev/"
           fontWeight="500"
           isExternal
-        >
-          Web
-        </Link>
+        >Flutter</Link> &
+        <Link
+          color={useColorModeValue("blue.500", "blue.400")}
+          href="https://kotlinlang.org/docs/multiplatform.html"
+          fontWeight="500"
+          isExternal
+        >Kotlin Multiplatform</Link>  
+        )
         {" & "}
-        <Link
-          color={useColorModeValue("blue.500", "blue.400")}
-          href="https://reactnative.dev/"
-          fontWeight="500"
-          isExternal
-        >
-          Mobile Development (Android & iOS)
-        </Link>
-        .{"\n"}Passion in beautiful UI / UX & Tech Writter on{" "}
-        <Link
-          color={useColorModeValue("blue.500", "blue.400")}
-          href="https://skynight1996.medium.com/"
-          fontWeight="500"
-          isExternal
-        >
-          Medium
-        </Link>
-        . 🔥
-      </Paragraph>
+          Native Mobile Development (Android & iOS).
+        </Paragraph>
 
       <Box mt={5}>
         <ButtonGroup>
           <SocialButton social={resume} />
-          <Link href={"/contact"} style={{ textDecoration: "none" }}>
+          {/* <Link href={"/contact"} style={{ textDecoration: "none" }}>
             <Button
               colorScheme="blue"
               size="sm"
@@ -105,11 +92,11 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
             >
               Contact Me
             </Button>
-          </Link>
+          </Link> */}
         </ButtonGroup>
       </Box>
 
-      <SpotifySection song={song} />
+      {/* <SpotifySection song={song} /> */}
     </Box>
   );
 };

@@ -28,8 +28,7 @@ const TechStackSection = () => {
         textColor={useColorModeValue("gray.600", "gray.400")}
         fontSize={"lg"}
       >
-        A list of my favorite tools and technologies that I use on a regular
-        basis.
+        There are my technical stack I usually use.
       </Text>
       <Tabs variant="solid-rounded" mt={5}>
         <TabList>

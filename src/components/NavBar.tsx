@@ -86,7 +86,7 @@ const NavBar = () => {
             as={Link}
             size="sm"
             href="/"
-            src="/images/profile_picture.png"
+            src="/images/profile.jpg"
             _hover={{ borderColor: "blue.500" }}
           />
           <HStack as="nav" spacing="4" display={{ base: "none", md: "flex" }}>

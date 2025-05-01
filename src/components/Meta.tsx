@@ -20,10 +20,10 @@ const Meta: React.FC<IMeta> = ({
 
   let pageTitle;
   if (router.pathname === "/") {
-    pageTitle = "Teo | Front End Engineer";
+    pageTitle = "KaitoKitaya Profile";
   } else {
     const path = router.pathname.split("/").pop();
-    pageTitle = `Teo | ${capitalise(path)}`;
+    pageTitle = `Kaito | ${capitalise(path)}`;
   }
 
   console.log(window.location)
