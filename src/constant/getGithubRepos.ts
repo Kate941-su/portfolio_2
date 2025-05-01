@@ -1,10 +1,11 @@
 import React from "react";
 import axios from "axios";
+import { GITHUB_NAME } from "../../secret";
 
 const getGithubRepos = async (username: string) => {
   try {
     const res = await axios.get(
-      `https://api.github.com/users/${username}/repos?per_page=100`
+      `https://api.github.com/users/${GITHUB_NAME}/repos?per_page=100`
     );
 
     let repos = res.data;

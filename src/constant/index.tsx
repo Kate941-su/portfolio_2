@@ -29,6 +29,7 @@ import {
   FaApple,
   FaSwift,
   FaJenkins,
+  FaPython,
 } from "react-icons/fa";
 import { SiReactquery, SiGoogleanalytics } from "react-icons/si";
 import { CgAlbum } from "react-icons/cg";
@@ -103,8 +104,8 @@ const techStacks = {
       icon: <SiTypescript size={20} />,
     },
     {
-      name: "Javascript",
-      icon: <FaJs size={20} />,
+      name: "Python",
+      icon: <FaPython size={20} />,
     },
     {
       name: "TailwindCSS",
@@ -139,7 +140,7 @@ const techStacks = {
   ],
   Infra: [
     {
-      name: "Google Clund Platform",
+      name: "Google Cloud Platform",
       icon: <FaGoogle size={20} />,
     },
     {
@@ -236,7 +237,7 @@ const educations = [
 const projects = {
   Works: [
     {
-      name: "Astro News Portals",
+      name: "Video Viewer Application",
       imageUrl: "/images/astro_vortals.png",
       alt: "AstroVortals",
       summary:

@@ -1,6 +1,7 @@
 import axios from "axios";
 import dayjs from 'dayjs';
 import { ArticleRes } from "../types/article";
+import { MEDIUM_NAME } from "../../secret";
 
 const shortenDescription = (description: string) => {
   const defaultContinue = " Continue reading on Medium »";
@@ -19,7 +20,7 @@ const shortenDescription = (description: string) => {
 const getMediumArticles = async (username: string) => {
   try {
     const { data } = await axios.get<ArticleRes>(
-      `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${username}`
+      `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_NAME}`
     );
 
     let { items } = data || {};
