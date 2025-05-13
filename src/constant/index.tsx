@@ -237,46 +237,47 @@ const educations = [
 const projects = {
   Works: [
     {
-      name: "Video Viewer Application",
-      imageUrl: "/images/astro_vortals.png",
-      alt: "AstroVortals",
-      summary:
-        "Discover Malaysia's premier news portals, offering comprehensive coverage of diverse topics and boasting over 2 million monthly active users (MAU)",
-      link: "https://www.astroawani.com/",
-      tech: ["React", "ReactQuery", "SCSS", "AWS", "Redux", "Typescript"],
-    },
-    {
-      name: "Ecosystem Design System",
-      imageUrl: "/images/eco-design-system.png",
-      alt: "eco-design-system",
-      summary:
-        "Design System built with StorybookJS based on design token and publish as open-source in NPM",
-      link: "https://meraki-design-system.eco.astro.com.my/",
-      tech: ["React", "StorybookJS", "SCSS", "Emotion", "Typescript"],
-    },
-    {
-      name: "Digital Fortress Assistant Portal",
-      imageUrl: "/images/dfap.png",
-      alt: "dfap",
-      summary:
-        "CMS Assistant Portal for building website with components and make configuration easier",
-      link: "https://de-digital-fortress-assistant-stg.eco.astro.com.my/",
-      tech: ["React", "ReactQuery", "TailwindCSS", "MantineUI", "Typescript"],
-    },
-    {
-      name: "Chativo",
+      name: "Ibis Paint",
       imageUrl:
-        "https://play-lh.googleusercontent.com/tgLiP-ZL-sBuZt2RzDU1tN88Cp7NPbdjF7c0311_dui86f1HrAQM0j4gXaRE0pb5zW0=s360-rw",
+        "/images/works/ibis.png",
       alt: "chativo",
       summary:
-        "Enterprise ready live-chat base customer support & engagement software",
-      tech: ["Android", "Kotlin", "Android Jetpack", "Coroutine Flow"],
+        "Developed a versatile painting application designed to cater to a wide range of users—from casual doodlers to digital art enthusiasts.",
+      tech: ["C++"],
       link: "https://play.google.com/store/apps/details?id=io.chativo.chat",
     },
     {
-      name: "ChativoV",
+      name: "Network Rooter Development",
+      imageUrl: "/images/works/rooter.jpg",
+      alt: "Rooter",
+      summary:
+        "Proven embedded engineer with extensive expertise in router development, particularly in the Small Office/Home Office (SOHO) segment.",
+      link: "",
+      tech: ["C", "Linux"],
+    },
+    {
+      name: "Web Camera Online Service",
+      imageUrl: "/images/works/broadcast.jpg",
+      alt: "broadcast",
+      summary:
+        "Developed and released a mobile-first web streaming service with live broadcasting capabilities using smartphones. The user interface was built with Flutter for cross-platform efficiency, while the core functionalities were implemented in native Swift and Kotlin for maximum performance. ",
+      link: "https://meraki-design-system.eco.astro.com.my/",
+      tech: ["Flutter", "Swift", "Kotlin", "WebRTC"],
+    },
+    {
+      name: "Video Creater Application",
+      imageUrl: "/images/works/creater.jpg",
+      alt: "dfap",
+      summary:
+        "Developed a native movie creator application featuring advanced video playback and editing capabilities. Utilized AVFoundation on iOS and Media3 on Android to deliver high-performance media handling across platforms.",
+      link: "https://de-digital-fortress-assistant-stg.eco.astro.com.my/",
+      tech: ["Flutter", "Swift", "Kotlin", "AVFoundation", "Media3"],
+    },
+
+    {
+      name: "Video Wathcer Application",
       imageUrl:
-        "https://play-lh.googleusercontent.com/5U5s7sSIuzP6CygPkU2ZYxyOXT-MKv7oiyweGKHgkEgVameOcYt44rnXqCTWZJNZgVqn=s360-rw",
+        "/images/works/video-watch.jpg",
       alt: "chativo-v",
       summary:
         "Live-chat specifically designed for visitors to communicate with real-time agent instantly",
