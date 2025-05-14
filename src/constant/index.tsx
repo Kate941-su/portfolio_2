@@ -178,11 +178,20 @@ const techStacks = {
 
 const companies = [
   {
+    title: "Papyrus GmbH",
+    alt: "papyrus",
+    url: "https://papyrusde.com/",
+    role: "Mobile Software Engineer",
+    skills: ["Jetpack Compose", "SwiftUI", "Kotlin", "Swift" ],
+    period: "Oct 2024 - present",
+    logo: "/images/history/papyrus.png",
+  },
+  {
     title: "miracleave Inc",
     alt: "astro image",
     url: "https://www.miracleave.co.jp/",
     role: "Mobile Software Engineer",
-    skills: ["React", "Sass", "Redux", "Redux Saga", "StorybookJS"],
+    skills: ["Flutter", "Jetpack Compose", "Kotlin", "Swift", "Python", ],
     period: "May 2023 - Sep 2024",
     logo: "/images/history/mira.png",
   },
@@ -194,7 +203,7 @@ const companies = [
     skills: [
       "C",
       "Javascript",
-      "Lua",
+      "Linux"
     ],
     period: "Apr 2022 - May 2023",
     logo: "/images/history/yamaha.png",
@@ -203,7 +212,7 @@ const companies = [
     title: "Ibis Inc",
     alt: "Ibis.inc",
     url: "https://ibispaint.com/?lang=en-US",
-    role: "Mobile Application Developer Intern",
+    role: "Mobile Application Developer (Intern)",
     skills: ["Ios", "Android", "C++"],
     period: "Mar 2021 - Mar 2022",
     logo: "/images/works/ibis.png",
@@ -212,22 +221,22 @@ const companies = [
 
 const educations = [
   {
-    title: "University Technology Malaysia (UTM)",
-    alt: "utm image",
-    url: "https://www.utm.my/",
-    role: "Bachelor's Degree in Computer Science (Network and Security)",
-    skills: ["CGPA - 3.79", "CCNA", "Security Management", "Network Security"],
-    period: "Sept 2016 - Sept 2020",
-    logo: "/images/utm.png",
+    title: "Nagoya Institute of Technology (NIT)",
+    alt: "nit image",
+    url: "https://www.nitech.ac.jp/eng/",
+    role: "Master's Degree in Advanced Physics (Molecular dynamics (MD) simulation)",
+    skills: ["C lang", "Computer simulation", "Molecular dynamics", "Super computer"],
+    period: "Apr 2020 - Mar 2022",
+    logo: "/images/education/nit.png",
   },
   {
-    title: "SMK Mentakab",
-    alt: "smk image",
-    url: "https://www.facebook.com/pages/category/College---university/Sekolah-Menengah-Kebangsaan-Mentakab-224802077565350/",
-    role: "STPM - Science Stream (Physics)",
-    skills: ["CGPA - 3.33", "Math T", "Physics", "Chemistry"],
-    period: "Jan 2015 - Jun 2016",
-    logo: "/images/smk.png",
+    title: "Nagoya Institute of Technology (NIT)",
+    alt: "nit image",
+    url: "https://www.nitech.ac.jp/eng/",
+    role: "Bachelor's Degree in Advanced Physics (Molecular dynamics (MD) simulation)",
+    skills: ["C lang", "Physics", "Math",],
+    period: "Apr 2016 - Mar 2020",
+    logo: "/images/education/nit.png",
   },
 ];
 
@@ -289,13 +298,14 @@ const projects = {
       alt: "ideasss",
       summary:
         "The simple dental web site. The concept is 'Being simple is the best for all generations.' I make efforts for what the customer demands.",
-      link: "https://hamamatsu-nakaze-dental.com/introduce.html",
+      link: "https://hamamatsu-nakaze-dental.com/",
       tech: ["HTML", "CSS", "Javascript"],
     },
     {
       name: "Iwase dental clinic (岩瀬歯科医院)",
       imageUrl: "/images/works/logo_iwase.png",
       alt: "klusterx",
+      link: "https://okazaki-iwasedc.com/",
       summary:
         "This site is also a simple web site. I think more about maintainability and easy to add features. These reasones get me use NextJS framework.",
       tech: ["NextJS", "TailwindCSS", "React"],
@@ -304,6 +314,7 @@ const projects = {
       name: "Blood Pressuer Management Handnote (シンプル血圧手帳)",
       imageUrl: "/images/works/blood.png",
       alt: "klusterx",
+      link: "https://play.google.com/store/apps/details?id=com.kaitokitaya.pressure_management&hl=en",
       summary:
         "This app hopes that people have high blood pressure messure their own blood pressure easily and the notes are easy to look. the app is being used 100+ people.",
       tech: ["NextJS", "TailwindCSS", "React"],
