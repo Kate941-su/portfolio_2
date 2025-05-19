@@ -18,11 +18,7 @@ import SocialButton from "../SocialButton";
 import { SpotifySong } from "../../types/spotify";
 import { MotionFlex } from "../../utils/motion";
 
-interface IProfileSection {
-  song: SpotifySong;
-}
-
-const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
+const ProfileSection = () => {
   return (
     <Box>
       <MotionFlex
